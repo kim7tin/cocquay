@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "/Applications/Arduino.app/Contents/Java/libraries",
+  "customBuildProperties": "build.path=/Users/ductin/Project/cocquay/output,build.warn_data_percentage=75,runtime.tools.avr-gcc.path=/Applications/Arduino.app/Contents/Java/hardware/tools/avr,runtime.tools.arduinoOTA.path=/Applications/Arduino.app/Contents/Java/hardware/tools/avr,runtime.tools.avrdude.path=/Applications/Arduino.app/Contents/Java/hardware/tools/avr",
+  "fqbn": "arduino:avr:pro:cpu=8MHzatmega328",
+  "hardwareFolders": "/Applications/Arduino.app/Contents/Java/hardware,/Users/ductin/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/ductin/Documents/Arduino/libraries",
+  "runtime.ide.version": "10803",
+  "sketchLocation": "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino",
+  "toolsFolders": "/Applications/Arduino.app/Contents/Java/tools-builder,/Applications/Arduino.app/Contents/Java/hardware/tools/avr,/Users/ductin/Library/Arduino15/packages"
+}

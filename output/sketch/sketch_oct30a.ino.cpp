@@ -1,3 +1,6 @@
+#include <Arduino.h>
+#line 1 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
+#line 1 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
 #include <avr/interrupt.h>
 #include <SimpleKalmanFilter.h>
 SimpleKalmanFilter bo_loc(2, 2, 1);
@@ -13,6 +16,15 @@ SimpleKalmanFilter bo_loc(2, 2, 1);
 
 volatile int light = 0, upTime = 0;
 
+#line 16 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
+void run(bool direction);
+#line 32 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
+void stop();
+#line 38 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
+void setup();
+#line 61 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
+void loop();
+#line 16 "/Users/ductin/Project/cocquay/sketch_oct30a/sketch_oct30a.ino"
 void run(bool direction)
 {
   // Serial.print("Run");
@@ -96,3 +108,4 @@ ISR(TIMER1_OVF_vect)
     Serial.println(light);
   }
 }
+

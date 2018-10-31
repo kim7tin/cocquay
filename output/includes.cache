@@ -1,0 +1,27 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs"
+  },
+  {
+    "Sourcefile": "/Users/ductin/Project/cocquay/output/sketch/sketch_oct30a.ino.cpp",
+    "Include": "SimpleKalmanFilter.h",
+    "Includepath": "/Users/ductin/Documents/Arduino/libraries/SimpleKalmanFilter/src"
+  },
+  {
+    "Sourcefile": "/Users/ductin/Project/cocquay/output/sketch/sketch_oct30a.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/Users/ductin/Documents/Arduino/libraries/SimpleKalmanFilter/src/SimpleKalmanFilter.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]
